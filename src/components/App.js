@@ -24,6 +24,6 @@ class App extends Component {
 }
 
 App.propTypes = propTypes;
-App.defaultprops = defaultProps;
+App.defaultProps = defaultProps;
 
 export default App;

@@ -1,4 +1,4 @@
-import * as types form './ActionTypes';
+import * as types from './ActionTypes';
 
 export function increment() {
     return {

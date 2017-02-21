@@ -1,11 +1,12 @@
 import React, {Component, PropTypes} from 'react';
 
 const propTypes = {
-    valueNumber: PropTypes.number
+    number: PropTypes.number
 };
 
 const defaultProps = {
-    valueNumber: -1
+    number: -1,
+    num: 0
 };
 
 class Value extends Component {
@@ -18,7 +19,7 @@ class Value extends Component {
     render() {
         return (
             <div>
-                <h1>{this.props.valueNumber}</h1>
+                <h1>{this.props.number}</h1>
             </div>
         );
     }
@@ -26,6 +27,6 @@ class Value extends Component {
 }
 
 Value.propTypes = propTypes;
-Value.defaultprops = defaultProps;
+Value.defaultProps = defaultProps;
 
 export default Value;
